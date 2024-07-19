@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function writeText(txt){
+document.getElementById("demo").innerHTML=txt;
+        }
+    </script>
+</head>
+<body>
+    <img src="20200321173223_tppkw.jpeg" alt="南北组" usemap="#luo"/>
+<map name="luo">
+    <area shape="circle" coords="106,306,63" 
+    onmouseover="writeText('华风夏韵,洛水天依')"
+    href="luo.html" target="_blank" alt="luo"
+    />
+    <area shape="circle" coords="294,293,62"
+    onmouseover="writeText('乐正司百曲,绫动万年红')"
+    href="ling.html" target="_blank" alt="ling"/>
+</map>
+<p id="demo">南北一生推！</p>
+</body>
+</html>
